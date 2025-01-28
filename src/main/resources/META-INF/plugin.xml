@@ -1,0 +1,24 @@
+
+<idea-plugin>
+    <id>me.shawaf.visualflow</id>
+    <name>VisualFlow</name>
+    <version>1.0</version>
+    <vendor email="mohamed.elshawaf.1@gmail.com" url="http://your-url.com">Your Name</vendor>
+    <idea-version since-build="241" until-build="241.*" />
+
+    <description><![CDATA[
+        This plugin allows users to preview diagrams associated with specific lines of code.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="VisualFlow.AddDiagram" class="me.shawaf.visualflow.AddDiagramAction" text="Show Comment Details" description="Add a diagram to the selected line">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>

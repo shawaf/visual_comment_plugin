@@ -1,0 +1,87 @@
+### Gradle ###
+.gradle/
+/build
+build/
+**/build/
+.gradle/caches/
+.gradle/wrapper/
+.gradle/configuration-cache/
+gradle-app.setting
+
+### Android/IntelliJ IDEA ###
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/vcs.xml
+*.iml
+*.iws
+out/
+.gen
+
+### Logs ###
+*.log
+
+### Operating System Files ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+
+### Plugin Development ###
+# IntelliJ Platform Plugin Artifacts
+*.ijx
+*.ijpx
+*.ijm
+.idea/modules.xml
+
+# Plugin Cache and Build Files
+artifacts/
+generated/
+out/
+**/lib/searchableOptions.xml
+
+# JAR/ZIP Files
+*.jar
+*.zip
+
+### Dependencies ###
+.idea/libraries/
+
+# Exclude local plugin test runs
+.idea/runConfigurations/
+
+# Plugin Signing Keys
+keystore.jks
+signing.properties
+
+### Optional ###
+# Ignore IntelliJ logs and debug configs
+*.pid
+logs/
+
+# Ignore build output folders
+*.out
+*.bak
+*.orig
+
+# Exclude NPM/node_modules (if using frontend code for UI)
+node_modules/
+
+### Kotlin ###
+*.kotlin_metadata
+
+# Ignore Kotlin/JS output
+js/packages/*/build/
+js/packages/*/.gradle/
+js/packages/*/node_modules/
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+.settings/
+
+# End of .gitignore
