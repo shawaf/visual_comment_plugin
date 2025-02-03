@@ -1,10 +1,10 @@
 
 <idea-plugin>
-    <id>me.shawaf.visualflow</id>
-    <name>VisualFlow</name>
+    <id>me.shawaf.visualcomment</id>
+    <name>Visual Comment</name>
     <version>1.0</version>
-    <vendor email="mohamed.elshawaf.1@gmail.com" url="http://your-url.com">Your Name</vendor>
-    <idea-version since-build="241" until-build="241.*" />
+    <vendor email="mohamed.elshawaf.1@gmail.com" url="https://www.shawaf.me/">Shawaf</vendor>
+    <idea-version since-build="242" until-build="242.*" />
 
     <description><![CDATA[
         This plugin allows users to preview diagrams associated with specific lines of code.
@@ -17,8 +17,13 @@
     </extensions>
 
     <actions>
-        <action id="VisualFlow.AddDiagram" class="me.shawaf.visualflow.AddDiagramAction" text="Show Comment Details" description="Add a diagram to the selected line">
+        <action id="me.shawaf.visualcomment.VisualCommentAction" class="me.shawaf.visualcomment.VisualCommentAction" text="Add Visual Comment" description="Insert a visualized comment with text and an image">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
         </action>
     </actions>
+    <!-- Extension Points -->
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add the gutter icon for visualized comments -->
+        <codeInsight.lineMarkerProvider language="kotlin" implementationClass="me.shawaf.visualcomment.VisualCommentGutterIcon"/>
+    </extensions>
 </idea-plugin>

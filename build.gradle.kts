@@ -1,9 +1,11 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     id("org.jetbrains.intellij") version "1.15.0"
     kotlin("jvm") version "1.9.10"
 }
 
-group = "me.shawaf.visualflow"
+group = "me.shawaf.visualcomment"
 version = "1.0.0"
 
 repositories {
@@ -23,8 +25,8 @@ dependencies {
 tasks {
     patchPluginXml {
         version.set(project.version.toString())
-        sinceBuild.set("241")
-        untilBuild.set("241.*")
+        sinceBuild.set("242")
+        untilBuild.set("242.*")
     }
 
     signPlugin {
@@ -36,4 +38,23 @@ tasks {
     publishPlugin {
         token.set(System.getenv("PUBLISH_TOKEN"))
     }
+
+    // Ensure Kotlin and Java targets are the same (JVM 17)
+    withType<JavaCompile>().configureEach {
+        options.encoding = "UTF-8"
+        options.release.set(17)  // Ensure Java targets JVM 17 (set Java 17 compatibility)
+    }
+
+    withType<KotlinCompile>().configureEach {
+        kotlinOptions {
+            jvmTarget = "17"  // Ensure Kotlin targets JVM 17
+        }
+    }
 }
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17)) // Use JDK 17 only for this project
+    }
+}
+
