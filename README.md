@@ -1,4 +1,4 @@
-# 🌟 Visual Comment Plugin for Android Studio
+# Visual Comment Plugin for Android Studio
 
 **Visual Comment** is an Android Studio plugin that allows developers to add rich, visual comments with images and descriptions directly in their code. With intuitive UI elements, gutter icons, and dynamic previews, this plugin enhances code readability and collaboration.
 
