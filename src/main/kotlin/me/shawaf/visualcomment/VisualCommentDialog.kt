@@ -11,7 +11,6 @@ import java.awt.*
 import java.nio.file.Files
 import java.nio.file.Paths
 import javax.swing.*
-// VISUAL_COMMENT: {"description": "In VisualCommentGutterIcon.kt, modify your openCommentPreview method to retrieve the project instance from the PsiElement (which represents the comment in the code).  Updated openCommentPreview in VisualCommentGutterIcon.kt", "image": "visualcomment_images/WhatsApp Image 2024-10-15 at 4.39.56 PM (1).jpeg"}
 
 class VisualCommentDialog(val project: Project, private val editor: com.intellij.openapi.editor.Editor) :
     DialogWrapper(project) {

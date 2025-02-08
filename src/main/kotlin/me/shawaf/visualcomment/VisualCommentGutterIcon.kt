@@ -8,7 +8,6 @@ import com.intellij.psi.PsiComment
 import com.intellij.icons.AllIcons
 import me.shawaf.visualcomment.utils.extractImagePath
 import javax.swing.Icon
-// VISUAL_COMMENT: {"description": "In VisualCommentGutterIcon.kt, modify your openCommentPreview method to retrieve the project instance from the PsiElement (which represents the comment in the code).  Updated openCommentPreview in VisualCommentGutterIcon.kt", "image": "visualized-comments/WhatsApp Image 2024-12-23 at 8.45.09 PM.jpeg"}
 
 /**
  * Adds a gutter icon beside visualized comments in the editor.

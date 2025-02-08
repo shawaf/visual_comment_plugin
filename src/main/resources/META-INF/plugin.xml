@@ -2,12 +2,13 @@
 <idea-plugin>
     <id>me.shawaf.visualcomment</id>
     <name>Visual Comment</name>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <vendor email="mohamed.elshawaf.1@gmail.com" url="https://www.shawaf.me/">Shawaf</vendor>
     <idea-version since-build="242" until-build="242.*" />
 
     <description><![CDATA[
-        This plugin allows users to preview diagrams associated with specific lines of code.
+        This plugin allows you to add a visualized comment to your code, which includes a text description and an image,
+        making it easier to understand the purpose of the code.
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>

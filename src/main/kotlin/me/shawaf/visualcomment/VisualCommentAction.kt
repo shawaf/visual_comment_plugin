@@ -8,8 +8,6 @@ import com.intellij.openapi.editor.Document
 import com.intellij.openapi.project.Project
 import me.shawaf.visualcomment.utils.extractImagePath
 
-// VISUAL_COMMENT: {"description": "In VisualCommentGutterIcon.kt, modify your openCommentPreview method to retrieve the project instance from the PsiElement (which represents the comment in the code).  Updated openCommentPreview in VisualCommentGutterIcon.kt", "image": "visualized-comments/logo_flutter_1080px_clr.png"}
-// VISUAL_COMMENT:
 class VisualCommentAction : AnAction() {
     override fun actionPerformed(e: AnActionEvent) {
         val project = e.project ?: return
