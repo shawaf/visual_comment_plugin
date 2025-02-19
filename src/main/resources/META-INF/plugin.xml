@@ -1,14 +1,30 @@
-
 <idea-plugin>
     <id>me.shawaf.visualcomment</id>
     <name>Visual Comment</name>
-    <version>1.0</version>
+    <version>1.1.0</version>
     <vendor email="mohamed.elshawaf.1@gmail.com" url="https://www.shawaf.me/">Shawaf</vendor>
     <idea-version since-build="242" until-build="242.*" />
 
-    <description><![CDATA[
-        This plugin allows users to preview diagrams associated with specific lines of code.
-    ]]></description>
+    <description>
+    <![CDATA[
+    # Visual Comment Plugin
+
+    Enhance your code with rich, visual comments!
+
+    The **Visual Comment Plugin** for Android Studio and IntelliJ IDEA brings a new way to annotate your code. Add **detailed, interactive comments** with **text and images**, making it easier to document complex logic, UI elements, and design decisions.
+
+    ## 🚀 Key Features:
+    ✅ **Rich Comments** – Attach images and formatted descriptions to your code.
+    ✅ **Quick Access** – Clickable comments open a well-styled preview.
+    ✅ **Gutter Icons** – Easily spot and navigate visual comments.
+    ✅ **User-Friendly Wizard** – A seamless UI for adding and managing comments.
+
+    📌 **Perfect for:** UI discussions, team collaboration, and self-documentation.
+
+    ** Note: Current image support is limited to PNG and JPEG. **
+
+    ]]>
+    </description>
 
     <depends>com.intellij.modules.platform</depends>
 
@@ -17,13 +33,17 @@
     </extensions>
 
     <actions>
-        <action id="me.shawaf.visualcomment.VisualCommentAction" class="me.shawaf.visualcomment.VisualCommentAction" text="Add Visual Comment" description="Insert a visualized comment with text and an image">
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        <action class="me.shawaf.visualcomment.VisualCommentAction"
+            description="Insert a visualized comment with text and an image"
+            id="me.shawaf.visualcomment.VisualCommentAction" text="Add Visual Comment">
+            <add-to-group anchor="first" group-id="EditorPopupMenu" />
         </action>
     </actions>
     <!-- Extension Points -->
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add the gutter icon for visualized comments -->
-        <codeInsight.lineMarkerProvider language="kotlin" implementationClass="me.shawaf.visualcomment.VisualCommentGutterIcon"/>
+        <codeInsight.lineMarkerProvider
+            implementationClass="me.shawaf.visualcomment.VisualCommentGutterIcon"
+            language="kotlin" />
     </extensions>
 </idea-plugin>
