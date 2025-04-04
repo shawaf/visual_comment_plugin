@@ -7,21 +7,25 @@
 
     <description>
     <![CDATA[
-    # Visual Comment Plugin
+  <h1> Visual Comment Plugin </h1>
 
-    Enhance your code with rich, visual comments!
+    <h2> Enhance your code with rich, visual comments! </h2>
 
-    The **Visual Comment Plugin** for Android Studio and IntelliJ IDEA brings a new way to annotate your code. Add **detailed, interactive comments** with **text and images**, making it easier to document complex logic, UI elements, and design decisions.
+    <p>The <b>Visual Comment Plugin</b> for Android Studio and IntelliJ IDEA brings a new way to annotate your code. Add <b>detailed, interactive comments</b> with <b>text and images</b>, making it easier to document complex logic, UI elements, and design decisions.</p>
 
-    ## 🚀 Key Features:
-    ✅ **Rich Comments** – Attach images and formatted descriptions to your code.
-    ✅ **Quick Access** – Clickable comments open a well-styled preview.
-    ✅ **Gutter Icons** – Easily spot and navigate visual comments.
-    ✅ **User-Friendly Wizard** – A seamless UI for adding and managing comments.
+    🚀 Key Features:
+    <ul>
+    <li>✅ <b>Rich Comments</b> – Attach images and formatted descriptions to your code.</li>
+    <li>✅ <b>Quick Access</b> – Clickable comments open a well-styled preview.</li>
+    <li>✅ <b>Gutter Icons</b> – Easily spot and navigate visual comments.</li>
+    <li>✅ <b>User-Friendly Wizard</b> – A seamless UI for adding and managing comments.</li>
+    </ul
 
-    📌 **Perfect for:** UI discussions, team collaboration, and self-documentation.
-
-    ** Note: Current image support is limited to PNG and JPEG. **
+<p>📌 <b>Perfect for:</b> UI discussions, team collaboration, and self-documentation.
+</br>
+</br>
+<b> Note: Current image support is limited to PNG and JPEG. </b>
+</p>
 
     ]]>
     </description>
