@@ -33,20 +33,11 @@
 
 ## 🛠️ **Tools & Technologies Used**
 
-- 🚀 **IntelliJ Platform SDK**: Built on the IntelliJ Platform for seamless integration.
-- 📄 **Kotlin**: Leveraged Kotlin for clean, concise, and robust plugin development.
-- 📝 **Gradle IntelliJ Plugin**: Simplified building and deployment.
+- 🚀 **IntelliJ Platform Version 2024.1** (Compatible with Android Studio Iguana): Built on the IntelliJ Platform for seamless integration.
+- 📄 **Kotlin 1.9.10**: Leveraged Kotlin for clean, concise, and robust plugin development.
+- 📝 ***Gradle IntelliJ Plugin 1.15.0**: Simplified building and deployment.
 - 🌐 **JetBrains Marketplace**: Published and managed through the official JetBrains Marketplace.
-
----
-
-## 📅 **Dependencies/Technologies**
-
-- **Kotlin 1.9.10**
-- **Gradle IntelliJ Plugin 1.15.0**
-- **IntelliJ Platform Version 2024.1** (Compatible with Android Studio Iguana)
-- **Java 17** (Configured using Gradle toolchains)
-
+  
 ---
 
 ## 🔄 **Upcoming Features**
