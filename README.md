@@ -51,10 +51,12 @@
 
 ## 🔄 **Upcoming Features**
 
-- 📥 **Export & Share Visual Comments**: Export comments with images to share with teammates.
-- 🔍 **Searchable Visual Comments**: Quickly find visual comments using keywords.
-- 🔄 **Dark Mode Support**: Enhanced UI for better readability in dark themes.
-- 🌐 **Cloud Sync**: Synchronize visual comments across multiple devices and repositories.
+- [ ] **Custom Save Location**: Choose where to save images.
+- [ ] **Display UI Enhancement**: Enhance Display POPUP UI. 
+- [ ] **Export & Share Visual Comments**: Export comments with images to share with teammates.
+- [ ] **Searchable Visual Comments**: Quickly find visual comments using keywords.
+- [ ] **Dark Mode Support**: Enhanced UI for better readability in dark themes.
+- [ ] **Cloud Sync**: Synchronize visual comments across multiple devices and repositories.
 
 ---
 
