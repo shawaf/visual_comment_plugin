@@ -6,12 +6,12 @@
 
 ## 📅 **Features**
 
-- 📷 **Visual Comments with Images**: Add comments that include images and detailed descriptions.
-- 🔧 **Intuitive Wizard**: Easily upload images and add descriptions through a user-friendly dialog.
-- 🌎 **Project-Scoped Image Storage**: Automatically save images inside your project’s `visualized-comments/` folder.
-- 📌 **Gutter Icon Integration**: Special icons appear next to visual comments for quick access.
-- 👁️ **Dynamic Previews**: Click on visual comments to view an organized preview with scaled images and formatted text.
-- 🔄 **Cross-Device Compatibility**: Comments and images are saved relative to the project folder, ensuring they work on any device.
+- **Visual Comments with Images**: Add comments that include images and detailed descriptions.
+- **Intuitive Wizard**: Easily upload images and add descriptions through a user-friendly dialog.
+- **Project-Scoped Image Storage**: Automatically save images inside your project’s `visualized-comments/` folder.
+- **Gutter Icon Integration**: Special icons appear next to visual comments for quick access.
+- **Dynamic Previews**: Click on visual comments to view an organized preview with scaled images and formatted text.
+- **Cross-Device Compatibility**: Comments and images are saved relative to the project folder, ensuring they work on any device.
 
 ---
 
@@ -33,10 +33,10 @@
 
 ## 🛠️ **Tools & Technologies Used**
 
-- 🚀 **IntelliJ Platform Version 2024.1** (Compatible with Android Studio Iguana): Built on the IntelliJ Platform for seamless integration.
-- 📄 **Kotlin 1.9.10**: Leveraged Kotlin for clean, concise, and robust plugin development.
-- 📝 ***Gradle IntelliJ Plugin 1.15.0**: Simplified building and deployment.
-- 🌐 **JetBrains Marketplace**: Published and managed through the official JetBrains Marketplace.
+- **IntelliJ Platform Version 2024.1** (Compatible with Android Studio Iguana): Built on the IntelliJ Platform for seamless integration.
+- **Kotlin 1.9.10**: Leveraged Kotlin for clean, concise, and robust plugin development.
+- ***Gradle IntelliJ Plugin 1.15.0**: Simplified building and deployment.
+- **JetBrains Marketplace**: Published and managed through the official JetBrains Marketplace.
   
 ---
 
